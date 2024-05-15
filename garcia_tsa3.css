@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body{
+    background-image: url(bg1.jpg);
+    background-size: center;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+
+img{
+    height: 340px;
+    width: 420px;
+}
+
+.heading{
+
+    font-size: 5rem;
+    color: lightgray;
+    font-family: "YOU'RE INVITED!", 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+
+.subheading{
+    font-weight: 700;
+}
+
+.p1{
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:beige;
+}
+
+.span{
+    color: lightseagreen;
+}
