@@ -1,0 +1,179 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.image {
+    background-image: url('bg1.png');
+}
+
+img {
+    width: 100%;
+    height: 278;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 2%;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 20px 15px 15px rgb(0, 0, 0);
+    overflow: hidden;
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.first{
+margin-top: 10.5%;
+padding: 20px; 
+
+}
+
+.second{
+    margin-top: 14.3%;
+    padding: 20px;  
+}
+
+.third{
+    margin-top: 3.4%;
+    padding: 20px;  
+}
+
+.five{
+    padding: 20px;  
+}
+
+.card.green {
+    background-color: #45A049;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.card.red {
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+}
+
+.card.blue {
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+}
+
+.card.yellow {
+    background-color: yellow;
+    width: 100%;
+    padding: 20px;
+}
+
+.card.pink {
+    background-color: lightpink;
+    width: 100%;
+    padding: 20px;
+}
+
+.card.gray {
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.pokemon-type {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0;
+}
+
+.type-grass {
+    background-color: #78C850;
+}
+
+.type-poison {
+    background-color: #A040A0;
+}
+
+.type-fire {
+    background-color: #F08030;
+}
+
+.type-water {
+    background-color: #6890F0;
+}
+
+.type-electric {
+    background-color: #F8D030;
+}
+
+.type-fairy {
+    background-color: #EE99AC;
+}
+
+.type-normal {
+    background-color: #A8A878;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-release {
+    background-color: #F44336;
+    color: white;
+}
+
+.button-add:hover {
+    background-color: #45A049;
+}
+
+.button-release:hover {
+    background-color: #D32F2F;
+}
