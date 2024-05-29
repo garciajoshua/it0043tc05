@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+.container{
+    margin: 0.75rem;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 20px 20px 15px ;
+    flex-grow: 1;
+}
+
+P{
+display: none;
+}
+
+.pokeball {
+    display: none;
+}
+
+img{
+    width: 250px;
+    padding: 0.5rem;
+}
+
+#box1{
+    background-color: goldenrod;
+}
+#box2{
+    background-color: burlywood;
+}
+#box3{
+    background-color: lightgreen;
+}
+#box4{
+    background-color: lightseagreen;
+}
+#box5{
+    background-color: lightsalmon;
+}
+#box6{
+    background-color: yellow;
+}
+#box7{
+    background-color: lightcoral;
+}
+#box8{
+    background-color: lightseagreen;
+}
+#box9{
+    background-color: violet;
+}
+#box10{
+    background-color: lightslategray;
+}
+#box11{
+    background-color:lightskyblue;
+}
+#box12{
+    background-color: brown;
+}
+
+@media (max-width: 1135px){
+    .container{
+        flex-direction: column;
+    }
+    .box{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        width: 75px;
+    }
+    .box:hover{
+        background-image: url('hover.jpg');
+    }
+    P{
+        display: inline-block;
+        font-size: 2rem;
+    }
+    .pokeball {
+        display: inline-block;
+    }
+    
+
+}
+
+@media (max-width: 520px){
+    .container{
+        flex-direction: column;
+    }
+    .box{
+        display: block;
+        text-align: center;
+    }
+    img{
+        width: 75px;
+    }
+    .box:hover{
+        background-image: url('hover.jpg');
+    }
+    P{
+        display: block;
+        font-size: 2rem;
+    }
+    .pokeball {
+        display: none;
+    }
+    
+
+}
