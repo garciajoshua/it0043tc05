@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s all ease;
+}
+
+body {
+    background-image: url(valo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: palevioletred;
+    font-weight: 800;
+}
+
+.container {
+    background-image: url(clove.gif);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 3px black solid;
+    margin: 0.75rem;
+    padding: 0.75rem;
+    height: 675px;
+    width: 850px;
+    border-radius: 10px;
+    grid-column: 2;
+}
+
+.box {
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 5rem;
+    color: white;
+}
+
+.menu {
+    margin: 0.75rem;
+    grid-column: 1;
+    grid-row: 1;
+    width: 500px;
+    height: 500px;
+}
+
+button,
+input {
+    margin: 5px;
+}
+
+.column {
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: red;
+}
+
+button:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: black;
+    background-color: tomato;
+}
+
+#box1 {
+    background-color: #e35bf9;
+}
+
+#box2 {
+    background-color: #b181ff;
+}
+
+#box3 {
+    background-color: #6d33b4;
+}

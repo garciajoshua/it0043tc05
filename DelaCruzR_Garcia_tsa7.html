@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelaCruzR_Garcia_TSA7</title>
+    <link rel="stylesheet" href="DelaCruzR_Garcia_tsa7.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+    </div>
+    <div class="menu">
+        <button onclick="resetall()">Reset Flexbox</button>
+        <br>
+        <label id="gap">Gap</label>
+        <input class="column" type="number" min="0" id="inputgap" value="0" oninput="inputgap(this.value)">
+        <br>
+        <label>Flex Direction</label>
+        <br>
+        <button onclick="flexd(1)">Row</button>
+        <button onclick="flexd(2)">Column</button>
+        <br>
+        <label>Justify Content</label>
+        <br>
+        <button onclick="jc(1)">Start</button>
+        <button onclick="jc(2)">Center</button>
+        <button onclick="jc(3)">End</button>
+        <button onclick="jc(4)">Space Between</button>
+        <button onclick="jc(5)">Space Around</button>
+        <button onclick="jc(6)">Space Evenly</button>
+        <br>
+        <label>Align Items</label>
+        <br>
+        <button onclick="ai(1)">Start</button>
+        <button onclick="ai(2)">Center</button>
+        <button onclick="ai(3)">End</button>
+        <br>
+        <label>Flex Grow</label>
+        <br>
+        <button onclick="fg(1)">Reset</button>
+        <button onclick="fg(2)">Grow All</button>
+        <br>
+        <label for="g1">Box 1</label>
+        <input type="number" value="0" id="g1" class="column" oninput="boxOne(this.value)">
+        <br>
+        <label for="g2">Box 2</label>
+        <input type="number" value="0" id="g1" class="column" oninput="boxTwo(this.value)">
+        <br>
+        <label for="g3">Box 3</label>
+        <input type="number" value="0" id="g1" class="column" oninput="boxThree(this.value)">
+
+    </div>
+    <script src="DelaCruzR_Garcia_tsa7.js"></script>
+</body>
+
+</html>
