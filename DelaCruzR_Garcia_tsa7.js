@@ -1,4 +1,4 @@
-doc = document.getElementById("container");
+c = document.getElementById("container");
 let box1 = document.getElementById("box1");
 let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
@@ -6,10 +6,10 @@ let grow = 0;
 
 
 function resetall() {
-    doc.style.flexDirection = "row";
-    doc.style.justifyContent = "flex-start";
-    doc.style.alignItems = "Start";
-    doc.style.gap = "0px";
+    c.style.flexDirection = "row";
+    c.style.justifyContent = "flex-start";
+    c.style.alignItems = "Start";
+    c.style.gap = "0px";
 
     box1.style.flexGrow = "0";
     box2.style.flexGrow = "0";
