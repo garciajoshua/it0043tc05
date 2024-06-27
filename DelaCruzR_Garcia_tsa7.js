@@ -1,4 +1,4 @@
-c = document.getElementById("container");
+let c = document.getElementById("container");
 let box1 = document.getElementById("box1");
 let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
