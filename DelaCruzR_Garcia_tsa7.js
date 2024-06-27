@@ -6,12 +6,10 @@ let grow = 0;
 
 
 function resetall() {
-    document.getElementById("container").style.flexDirection = "row";
-    document.getElementById("container").style.justifyContent = "flex-start";
-    document.getElementById("container").style.alignItems = "Start";
-    document.getElementById("container").style.gap = "0px";
-
-    document.getElementById("")
+    doc.style.flexDirection = "row";
+    doc.style.justifyContent = "flex-start";
+    doc.style.alignItems = "Start";
+    doc.style.gap = "0px";
 
     box1.style.flexGrow = "0";
     box2.style.flexGrow = "0";
