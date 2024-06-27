@@ -13,9 +13,9 @@ function resetall() {
 
     document.getElementById("")
 
-    b1.style.flexGrow = "0";
-    b2.style.flexGrow = "0";
-    b3.style.flexGrow = "0";
+    box1.style.flexGrow = "0";
+    box2.style.flexGrow = "0";
+    box3.style.flexGrow = "0";
 
 }
 
